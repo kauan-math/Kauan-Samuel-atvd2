@@ -37,7 +37,7 @@ function App() {
         </section>
         <section className={styles.s2} id='s2'>
           <h2 className={styles.tecTitle}>Imagens</h2>
-          <p>dsada</p>
+          <p></p>
           <div className={styles.wrapCards}>
             {dados.map((item) => {
               return (
@@ -50,14 +50,14 @@ function App() {
         </section>
 
         <section id={styles.s3} className={styles.s3}>
-        <h2>Temporario</h2>
-        <p></p>
+          <h2>Temporario</h2>
+          <p></p>
         </section>
 
 
         <section id={styles.s4} className={styles.s4}>
-            <h2>Temporario</h2>
-            <p></p>
+          <h2>Temporario</h2>
+          <p></p>
         </section>
 
         <section id={styles.s5} className={styles.s5}>

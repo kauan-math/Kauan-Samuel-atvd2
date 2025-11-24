@@ -10,6 +10,7 @@
     z-index: 999;
     background-color: #232222;
     box-shadow: 0px 3px 20px #0000007c;
+    scroll-behavior: smooth;
 }
 
 .s1 {
@@ -52,7 +53,7 @@
     text-align: center;
     color: #173255;
     font-size: 56px;
-    letter-spacing: 10px;
+    letter-spacing: 1px;
     font-weight: bold;
 }
 
@@ -64,20 +65,6 @@
     justify-content: center;
     gap: 20px;
 }
-
-.s3{
-    background-color: aliceblue;
-    color: #011422;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    min-height: 50vh;
-    height: auto;
-    padding: 50px;
-    gap: 20px;
-}
-
 
 
 .s4 {
@@ -109,32 +96,6 @@
 
 
 
-/* RODAPÉ */
-.rodape {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-    padding: 10px;
-    background-color: aliceblue;
-}
-
-/*links/Ícones dentro do rodape*/
-.rodape a {
-    transition: all 200ms ease-in-out;
-    border-radius: 999px;
-    overflow: hidden;
-}
-
-.rodape a:hover {
-    transform: translateY(-6px) scale(1.01);
-}
-
-
-
-
-/* MEDIA QUERIES (Responsividade) */
 @media (width <= 768px) {
     .s1 {
         padding-top: 20px;

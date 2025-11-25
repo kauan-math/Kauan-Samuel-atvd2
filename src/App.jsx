@@ -19,7 +19,7 @@ function App() {
       <main>
         <section className={styles.s1} id="s1">
           <div className={styles.left}>
-            <img className={styles.guerra} width={500} height={500} src='./public/images/img1.jpg' alt="Guerra" />
+            <img className={styles.guerra} width={500} height={500} src='/images/img1.jpg' alt="Guerra" />
           </div>
           <div className={styles.right}>
             <h2 className={styles.title}>Sobre a Guerra</h2>

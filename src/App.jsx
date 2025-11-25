@@ -1,5 +1,8 @@
 import styles from "./App.module.css";
 
+import facebookIcon from '/images/face.png';
+import instagramIcon from '/images/insta.png';
+import whatsappIcon from '/images/ww.png';
 
 function App() {
 
@@ -36,33 +39,44 @@ function App() {
             </p>
           </div>
         </section>
-        <section className={styles.s2} id="s2"> 
-          
+        <section className={styles.s2} id="s2">
           <h2 className={styles.tecTitle}>Imagens</h2>
-          
-          <div className={styles.left1}>
-            <img className={styles.guerra} width={500} height={500} src='./public/images/img2.jpeg' alt="Guerra" />
-            <img className={styles.guerra1} width={500} height={500} src='./public/images/img6.png' alt="Guerra" />
-            <img className={styles.guerra2} width={500} height={500} src='./public/images/img7.webp' alt="Guerra" />
+          <div className={styles.imageGallery}>
+            <img
+              className={styles.guerra}
+              src={'/images/img2.jpeg'}
+              alt="Imagem de Conflito 1"
+            />
+            <img
+              className={styles.guerra}
+              src={'/images/img7.webp'}
+              alt="Imagem de Conflito 2"
+            />
+
+            <img
+              className={styles.guerra}
+              src={'/images/img6.png'}
+              alt="Imagem de Conflito 3"
+            />
           </div>
-          <p></p>
+
         </section>
 
-        <section id={styles.s3} className={styles.s3}>
+        <section id="s3" className={styles.s3}>
           <h2>Causas</h2>
           <div className={styles.left}>
             <img className={styles.guerra} width={500} height={500} src='./public/images/img3.jpg' alt="Guerra" />
           </div>
-          <div className={''}>
-          <p>A Guerra entre Israel e Hamas é um conflito que acontece desde o
-            final dos anos 1980, quando o Hamas surgiu como braço armado da
-            Irmandade Muçulmana na Faixa de Gaza, passando a integrar a
-            resistência palestina contra a presença e a expansão do domínio
-            israelense nos territórios palestinos.</p>
-            </div>
+          <div className={styles.right}>
+            <p>A Guerra entre Israel e Hamas é um conflito que acontece desde o
+              final dos anos 1980, quando o Hamas surgiu como braço armado da
+              Irmandade Muçulmana na Faixa de Gaza, passando a integrar a
+              resistência palestina contra a presença e a expansão do domínio
+              israelense nos territórios palestinos.</p>
+          </div>
         </section>
 
-        <section id={styles.s4} className={styles.s4}>
+        <section id="s4" className={styles.s4}>
           <h2>Impactos</h2>
           <div className={styles.left}>
             <img className={styles.guerra} width={500} height={500} src='./public/images/img4.jpg' alt="Guerra" />
@@ -72,7 +86,7 @@ function App() {
           </p>
         </section>
 
-        <section id={styles.s5} className={styles.s5}>
+        <section id="s5" className={styles.s5}>
           <h2>Cessar Fogo</h2>
           <p>
             A situação entre Israel e Palestina em novembro de 2025 é marcada
@@ -101,7 +115,12 @@ function App() {
           <p className={styles.paragraph}>Desdobramentos Regionais: O conflito também gerou tensões em outras frentes, com ataques entre Israel e o Hezbollah no Líbano, e um ataque de Israel ao Irã, aumentando a instabilidade regional. </p>
         </section>
       </main>
-      
+      <footer className={styles.rodape}>
+        <a href="https://www.facebook.com" target='_blank' rel='noopener noreferrer'> <img width={70} src={facebookIcon} alt="Facebook" /></a>
+        <a href="https://www.instagram.com" target='_blank' rel='noopener noreferrer'> <img width={70} src={instagramIcon} alt="Instagram" /></a>
+        <a href="https://www.whatsapp.com" target='_blank' rel='noopener noreferrer'> <img width={70} src={whatsappIcon} alt="WhatsApp" /></a>
+      </footer>
+
     </>
   );
 }

@@ -1,4 +1,3 @@
-/* Estiliza a barra de navegação principal, fixa no topo da tela */
 .menu {
     display: flex;
     width: 100%;
@@ -6,16 +5,34 @@
     align-items: center;
     justify-content: center;
     height: 80px;
-    gap: 20px;
+    gap: 30px;
     z-index: 999;
     background-color: #363535;
     box-shadow: 0px 3px 20px #3333337c;
-    
+    border-bottom: 3px solid #00BCD4;
 }
 
-/*(altura total da tela) */
+.menu a {
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition:  0.3s ease, color 0.3s ease;
+}
+
+.menu a:hover {
+    background-color: #00BCD4;
+    color: #363535;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
 .s1 {
-    background-color: aliceblue;
+    background-color: #e8eaeb;
     color: #011422;
     height: 100vh;
     display: flex;
@@ -25,7 +42,6 @@
     gap: 20px;
 }
 
-/* Estiliza a imagem de perfil */
 .left {
     width: 400px;
     height: 400px;
@@ -33,85 +49,211 @@
     border-radius: 2%;
 }
 
-.left1{
-    display: flex; 
-    gap: 20px;     
-    flex-wrap: wrap;
-    justify-content: center;
-    
-}
-
-/* Estiliza o contêiner do texto (lado direito) da seção 1 */
 .right {
     width: 500px;
 }
 
+.s5 h2 {
+    color: #2e2b5a;
+    font-size: 56px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    margin-bottom: 40px;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: inline-block;
+    padding-bottom: 10px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+}
 
+.s6 h2 {
+    color: var(--secondary-color);
+    font-size: 48px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    margin-bottom: 40px;
+    width: 100%;
+    display: inline-block;
+    padding-bottom: 10px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+}
 
-/* Estiliza o título principal da seção */
+.s3 h2 {
+    color: var(--secondary-color);
+    font-size: 48px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    margin-bottom: 40px;
+    width: 100%;
+    display: inline-block;
+    padding-bottom: 10px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.s4 h2 {
+    color: var(--secondary-color);
+    font-size: 48px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    margin-bottom: 40px;
+    width: 100%;
+    display: inline-block;
+    padding-bottom: 10px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.tecTitle {
+    color: var(--secondary-color);
+    font-size: 48px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    margin-bottom: 40px;
+    width: 100%;
+    display: inline-block;
+    padding-bottom: 10px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.s3 p {
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+    border: 1px solid #ddd;
+    color: #333;
+    font-size: 17px;
+    line-height: 1.65;
+    text-align: justify;
+}
+
+.s4 p {
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+    border: 1px solid #ddd;
+    color: #333;
+    font-size: 17px;
+    line-height: 1.65;
+    text-align: justify;
+}
+
+.s5 p {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+    border: 1px solid var(--highlight-color);
+    color: #333;
+    font-size: 18px;
+    line-height: 1.7;
+    font-weight: 400;
+    text-align: justify;
+}
+
+.s6 p {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+    border: 1px solid var(--highlight-color);
+
+    color: #333;
+    font-size: 18px;
+    line-height: 1.7;
+    font-weight: 400;
+    text-align: justify;
+}
+
 .title {
     font-size: 36px;
     font-weight: bold;
 }
 
-/* Estiliza o parágrafo de texto da seção */
 .paragraph {
     font-size: 18px;
 }
 
-
-/* Estiliza o contêiner principal da seção 2 */
 .s2 {
-    background-color: aliceblue;
+    background-color: #e8eaeb;
+    padding: 50px 20px;
     display: flex;
     flex-direction: column;
-    gap: 50px;
-    padding: 50px;
+    align-items: center;
+    min-height: 70vh;
 }
 
-/* Estiliza o título da seção de tecnologias */
 .tecTitle {
-    width: 100%;
-    text-align: center;
-    color: #173255;
-    font-size: 56px;
-    letter-spacing: 5px;
-    font-weight: bold;
+    color: var(--secondary-color);
+    font-size: 48px;
+    font-weight: 800;
+    margin-bottom: 40px;
 }
 
-/* Estiliza o contêiner que envolve os cards de tecnologia */
-.wrapCards {
+.imageGallery {
     display: flex;
-    flex-wrap: wrap;
-    align-items: center;
     justify-content: center;
     gap: 20px;
+    max-width: 1100px;
+    width: 90%;
+    margin: 0 auto;
 }
 
-/* Estiliza o contêiner principal da seção 3 (define cor de fundo) */
-.s3 {
-    background-color: aliceblue;
-    color: #011422;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    min-height: 50vh;
+.imageGallery .guerra {
+    flex: 1;
+    max-width: 350px;
     height: auto;
-    padding: 50px;
-    gap: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
 
-.s3 h2{
+.imageGallery .guerra:hover {
+    transform: scale(1.05);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+}
+
+.s2 h2 {
     color: #2e2b5a;
     font-size: 56px;
     letter-spacing: 5px;
     font-weight: bold;
+
+    width: 100%;
+    text-align: center;
 }
 
-/* Estiliza o contêiner principal da seção 4 */
+.s3 {
+    background-color: #e8eaeb;
+    color: #011422;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 50vh;
+    height: auto;
+    padding: 50px;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.s3 h2 {
+    color: #2e2b5a;
+    font-size: 56px;
+    letter-spacing: 5px;
+    font-weight: bold;
+    width: 100%;
+    text-align: center;
+}
+
 .s4 {
-    background-color: aliceblue;
+    background-color: #e8eaeb;
     color: #011422;
     display: flex;
     flex-direction: column;
@@ -123,17 +265,29 @@
     gap: 20px;
 }
 
-/* Estiliza o título H2 da seção 4 */
 .s4 h2 {
     color: #2e2b5a;
     font-size: 56px;
     letter-spacing: 5px;
     font-weight: bold;
+    width: 100%;
+    text-align: center;
 }
 
-/* Estiliza o contêiner principal da seção 5 (define cor de fundo) */
+.s4 p {
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+    border: 1px solid #ddd;
+    color: #333;
+    font-size: 17px;
+    line-height: 1.65;
+    text-align: justify;
+}
+
 .s5 {
-    background-color: aliceblue;
+    background-color: #e8eaeb;
     color: #011422;
     display: flex;
     flex-direction: column;
@@ -145,15 +299,15 @@
     gap: 20px;
 }
 
-.s5 h2{
+.s5 h2 {
     color: #2e2b5a;
     font-size: 56px;
     letter-spacing: 5px;
     font-weight: bold;
 }
 
-.s6{
-    background-color: aliceblue;
+.s6 {
+    background-color: #e8eaeb;
     color: #011422;
     display: flex;
     flex-direction: column;
@@ -165,50 +319,35 @@
     gap: 20px;
 }
 
-.s6 h2{
+.s6 h2 {
     color: #2e2b5a;
     font-size: 56px;
     letter-spacing: 5px;
     font-weight: bold;
 }
 
-.s6 p{
+.s6 p {
     padding-bottom: 10px;
 }
 
+.rodape {
+    background-color: #e8eaeb;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+    background-color: aliceblue;
+}
 
+.rodape a {
+    transition: all 200ms ease-in-out;
+    border-radius: 999px;
+    overflow: hidden;
+}
 
+.rodape a:hover {
+    transform: translateY(-6px) scale(1.01);
 
-
-/* Estilos aplicados em telas de 768px ou menos */
-@media (width <= 768px) {
-    /* Ajusta o preenchimento e espaçamento da Seção 1 para telas menores */
-    .s1 {
-        padding-top: 20px;
-        gap: 0;
-    }
-
-    /* Reduz a largura e altura do contêiner da imagem de perfil */
-    .left {
-        width: 300px;
-        height: 300px;
-    }
-
-    /* Reduz a largura e altura da imagem de perfil */
-    .imgPerfil {
-        width: 300px;
-        height: 300px;
-    }
-
-    /* Ajusta o padding e a margem superior do texto da Seção 1 */
-    .right {
-        padding: 20px;
-        margin-top: -150px;
-    }
-
-    /* Reduz o tamanho da fonte do título H2 na Seção 4 */
-    .s4 h2 {
-        font-size: 48px;
-        letter-spacing: 5px;
-    }
 }

@@ -65,7 +65,7 @@ function App() {
         <section id="s3" className={styles.s3}>
           <h2>Causas</h2>
           <div className={styles.left}>
-            <img className={styles.guerra} width={500} height={500} src='./public/images/img3.jpg' alt="Guerra" />
+            <img className={styles.guerra} width={500} height={500} src='/images/img3.jpg' alt="Guerra" />
           </div>
           <div className={styles.right}>
             <p>A Guerra entre Israel e Hamas é um conflito que acontece desde o
@@ -79,7 +79,7 @@ function App() {
         <section id="s4" className={styles.s4}>
           <h2>Impactos</h2>
           <div className={styles.left}>
-            <img className={styles.guerra} width={500} height={500} src='./public/images/img4.jpg' alt="Guerra" />
+            <img className={styles.guerra} width={500} height={500} src='/images/img4.jpg' alt="Guerra" />
           </div>
           <p>A guerra entre Israel e Palestina gera graves crises humanitárias, instabilidade geopolítica global e impactos econômicos significativos, especialmente nos mercados de energia. A população de Gaza enfrenta uma situação catastrófica com escassez de suprimentos e infraestrutura destruída, resultando em milhares de vítimas e deslocados de ambos os lados. Economicamente, o conflito causa volatilidade e aumento nos preços globais de petróleo e gás, pressionando a inflação e as cadeias de suprimentos, além de afetar severamente as economias locais. Geopoliticamente, há um aumento da tensão regional com o risco de envolvimento de outros atores, o mundo se divide diplomaticamente e a questão da autodeterminação palestina e dos assentamentos israelenses continuam sendo os principais entraves para a paz.
 

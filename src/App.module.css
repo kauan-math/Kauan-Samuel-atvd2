@@ -186,6 +186,7 @@ html {
 }
 
 .s2 {
+    
     background-color: #e8eaeb;
     padding: 50px 20px;
     display: flex;
@@ -195,6 +196,7 @@ html {
 }
 
 .tecTitle {
+    padding-top: 100px;
     color: var(--secondary-color);
     font-size: 48px;
     font-weight: 800;
@@ -226,6 +228,7 @@ html {
 }
 
 .s2 h2 {
+    padding-top: 60px;
     color: #2e2b5a;
     font-size: 56px;
     letter-spacing: 5px;
@@ -249,6 +252,7 @@ html {
 }
 
 .s3 h2 {
+    padding-top: 60px;
     color: #2e2b5a;
     font-size: 56px;
     letter-spacing: 5px;
@@ -271,6 +275,7 @@ html {
 }
 
 .s4 h2 {
+    padding-top: 60px;
     color: #2e2b5a;
     font-size: 56px;
     letter-spacing: 5px;
@@ -305,6 +310,7 @@ html {
 }
 
 .s5 h2 {
+    padding-top: 60px;
     color: #2e2b5a;
     font-size: 56px;
     letter-spacing: 5px;
@@ -325,6 +331,7 @@ html {
 }
 
 .s6 h2 {
+    padding-top: 60px;
     color: #2e2b5a;
     text-align: center;
     align-items: center;

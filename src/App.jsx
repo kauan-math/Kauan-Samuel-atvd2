@@ -9,7 +9,7 @@ function App() {
   return (
     <>
       <nav className={styles.menu}>
-        <a href="#s1">introdução</a>
+        <a href="#s1">Sobre</a>
         <a href="#s2">Imagens</a>
         <a href="#s3">Causas</a>
         <a href="#s4">Impactos</a>
@@ -82,7 +82,6 @@ function App() {
             <img className={styles.guerra} width={500} height={500} src='/images/img4.jpg' alt="Guerra" />
           </div>
           <p>A guerra entre Israel e Palestina gera graves crises humanitárias, instabilidade geopolítica global e impactos econômicos significativos, especialmente nos mercados de energia. A população de Gaza enfrenta uma situação catastrófica com escassez de suprimentos e infraestrutura destruída, resultando em milhares de vítimas e deslocados de ambos os lados. Economicamente, o conflito causa volatilidade e aumento nos preços globais de petróleo e gás, pressionando a inflação e as cadeias de suprimentos, além de afetar severamente as economias locais. Geopoliticamente, há um aumento da tensão regional com o risco de envolvimento de outros atores, o mundo se divide diplomaticamente e a questão da autodeterminação palestina e dos assentamentos israelenses continuam sendo os principais entraves para a paz.
-
           </p>
         </section>
 

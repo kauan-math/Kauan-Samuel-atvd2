@@ -69,7 +69,7 @@ function App() {
           </div>
           <div className={styles.right}>
             <p>A Guerra entre Israel e Hamas é um conflito que acontece desde o
-              final dos anos 1940, quando o Hamas surgiu como braço armado da
+              final dos anos 1980, quando o Hamas surgiu como braço armado da
               Irmandade Muçulmana na Faixa de Gaza, passando a integrar a
               resistência palestina contra a presença e a expansão do domínio
               israelense nos territórios palestinos.</p>
@@ -125,4 +125,3 @@ function App() {
 }
 
 export default App;
-
